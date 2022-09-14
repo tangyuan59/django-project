@@ -1,0 +1,45 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+div.navigation-bar{
+    width: auto;
+    height: auto;
+    background-color: beige;
+}
+div.navigation-bar>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+div.navigation-bar>ul li{
+
+    float: left;
+}
+
+div.navigation-bar>ul li.dd{
+
+    float: right;
+}
+div.navigation-bar>ul li.navigation-search{
+
+    float: right;
+}
+
+
+
+div.navigation-bar>ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.navigation-bar>ul>li a:hover {
+    background-color: #111;
+}
